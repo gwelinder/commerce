@@ -25,7 +25,7 @@ export async function Navbar() {
             prefetch={true}
             className="mr-2 flex w-full items-center justify-center md:w-auto lg:mr-6"
           >
-            <Image src="/logo.jpeg" alt="Smokely logo" width={200} height={100} />
+            <Image src="/logo.png" alt="Smokely logo" width={200} height={100} />
           </Link>
           {menu.length ? (
             <ul className="hidden gap-6 text-sm md:flex md:items-center">
