@@ -51,7 +51,7 @@ export const HotDealBanner = () => {
               </span>
             </div>
             <div className="hidden text-sm md:block md:text-base">
-              Brug kode:
+              Brug koden:
               <span className="rounded bg-yellow-400 px-2 py-1 font-bold text-red-600">
                 SNUSLOVER30
               </span>
@@ -60,7 +60,7 @@ export const HotDealBanner = () => {
         </div>
         <div className="mt-2 flex justify-center md:hidden">
           <div className="text-sm">
-            Brug kode:
+            Brug koden:
             <span className="rounded bg-yellow-400 px-2 py-1 font-bold text-red-600">
               SNUSLOVER30
             </span>
