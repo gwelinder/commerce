@@ -8,7 +8,7 @@ export function WelcomeToast() {
     // ignore if screen height is too small
     if (window.innerHeight < 650) return;
     if (!document.cookie.includes('welcome-toast=2')) {
-      toast('🛍️ Welcome to Next.js Commerce!', {
+      toast('🛍️ Velkommen til Smokely!', {
         id: 'welcome-toast',
         duration: Infinity,
         onDismiss: () => {
@@ -16,15 +16,9 @@ export function WelcomeToast() {
         },
         description: (
           <>
-            This is a high-performance, SSR storefront powered by Shopify, Next.js, and Vercel.{' '}
-            <a
-              href="https://vercel.com/templates/next.js/nextjs-commerce"
-              className="text-blue-600 hover:underline"
-              target="_blank"
-            >
-              Deploy your own
-            </a>
-            .
+            Vi specialiserer os i at sælge snus, vapes, og CBD produkter. Vi er glade for at have
+            dig på besøg og giver dig 10% rabat på dit første køb. Brug koden "SMOKELY1ST" ved
+            checkout!
           </>
         )
       });
